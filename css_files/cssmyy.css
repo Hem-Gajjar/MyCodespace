@@ -1,0 +1,174 @@
+.entry {
+  margin: 10px auto 10px;
+  margin-top: 30px;
+  border: 2px solid rgb(130, 130, 130);
+  width: 95%;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.mybody {
+  background-color: rgb(240, 240, 240);
+}
+
+.box {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 32%;
+  border: 2px solid rgb(130, 130, 130);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.center {
+  width: 32%;
+  border: 2px solid rgb(130, 130, 130);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.right {
+  width: 32%;
+  border: 2px solid rgb(130, 130, 130);
+  padding: 10px;
+  border-radius: 10px;
+  vertical-align: top;
+}
+
+input[type="text"],
+select,
+textarea {
+  border: 1.5px solid rgb(130, 130, 130);
+  border-radius: 5px;
+  /* background-color: aqua; */
+}
+
+.left input {
+  margin: 15px 0px 15px;
+  width: 245px;
+}
+
+.center input {
+  margin: 10px 0px 10px;
+  width: 245px;
+}
+
+.right input {
+  margin: 3px 0px 3px;
+  width: 245px;
+}
+
+.right select {
+  margin: 3px 0px 3px;
+  width: 245px;
+}
+
+textarea {
+  margin-top: 5px;
+  margin-left: 70px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.buttons input {
+  margin: 0px 10px 0px;
+  width: 90px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid rgb(130, 130, 130);
+  padding: 5px;
+  font-weight: 600;
+}
+
+.table_container {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid rgb(62, 62, 62);
+  width: 95%;
+  margin: auto;
+}
+
+.mynav {
+  color: whitesmoke;
+  background-color: rgb(22, 22, 22);
+}
+
+.mynav a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.mynav ul li a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: white;
+  transform: scale(0);
+  transition: transform 0.4s;
+  transform-origin: left;
+}
+
+.mynav ul li a:hover::after {
+  transform: scale(1);
+}
+
+.main-con {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid rgb(62, 62, 62);
+  width: 95%;
+  margin: auto;
+  height: 580px;
+}
+
+.edit-panel {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first {
+  width: 48%;
+  border: 2px solid rgb(130, 130, 130);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.second {
+  width: 48%;
+  border: 2px solid rgb(130, 130, 130);
+  padding: 10px;
+  border-radius: 10px;
+  /* vertical-align: top; */
+}
+
+.first input {
+  margin: 10px 0px 10px;
+}
+
+.first input[type="text"] {
+  width: 400px;
+}
+
+.second input,
+select {
+  margin: 10px 0px 10px;
+  width: 300px;
+}
+
+.inner-box {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  border-radius: 10px;
+}
